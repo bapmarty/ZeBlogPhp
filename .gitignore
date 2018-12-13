@@ -1,2 +1,2 @@
 /.vscode/
-/node_modules/
+/includes/secret_vars.php
