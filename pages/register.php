@@ -1,7 +1,7 @@
 <?php
   require '../includes/header.php';
 ?>
-<form action="/zeblogphp/includes/registration.php" method="POST">
+<form action="/zeblogphp/includes/register_script.php" method="POST">
   <div>
     <label for="lastname">Nom: </label>
     <input type="text" autocomplete="off" id="lastname" name="lastname" placeholder="Votre nom" required value="martin">
