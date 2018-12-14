@@ -1,6 +1,7 @@
 <?php
   require 'secret_vars.php';
   require "urls.php";
+  session_start();
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -14,17 +15,3 @@
   <link rel="stylesheet" href="<?= "/public/css/{$page}.css" ?>">
 </head>
 <body>
-<nav>
-  <div>
-    <a href="/"><img src="" alt=""></a>
-
-  </div>
-  <ul>
-    <li><a href="">Catégories</a></li>
-    <li><a href="">Articles</a></li>
-  </ul>
-  <ul>
-    <li><a href="<?= "{$urls['login']}" ?>">Se connecter</a></li>
-    <li><a href="<?= "{$urls['register']}" ?>">S'inscrire</a></li>
-  </ul>
-</nav>
