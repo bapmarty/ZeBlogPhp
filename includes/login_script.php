@@ -16,5 +16,9 @@
     if ($passwordcorrect === TRUE) {
       $_SESSION['pseudo'] = $user['pseudo'];
       header("location: /zeblogphp/account/profile.php?pseudo={$_SESSION['pseudo']}");   
+    } else {
+      header("location: /zeblogphp/pages/login.php");   
     }
+  } else {
+    header("location: /zeblogphp/pages/login.php");   
   }
