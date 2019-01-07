@@ -7,4 +7,4 @@ Developed by [bamartin](https://baptiste-mrt.fr), [Aymnms](https://aymnms.fr) an
 
 
 ## Epsi Discord Server
-[![](https://discordapp.com/api/guilds/371046774758178816/embed.png?style=banner2)](https://discord.gg/vQ4hG2)
+[![](https://discordapp.com/api/guilds/492701964581208080/embed.png?style=banner2)](https://discord.gg/vQ4hG2)
