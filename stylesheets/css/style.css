@@ -1,0 +1,11 @@
+.article-list div{
+  display: inline-block;
+}
+.article-list div:nth-child(1) {
+  width: 80%;
+}
+.article-list div:nth-child(2) {
+  position: relative;
+  float: right;
+  top: 20px;
+}
