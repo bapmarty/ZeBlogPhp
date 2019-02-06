@@ -1,6 +1,8 @@
 /.vscode/
 /src/settings.ini
-/uploads/account/*
+/uploads/accounts/*
 /uploads/articles/*
-/uploads/background/*
-/uploads/logo/*
+/uploads/web/background/*
+/uploads/web/logo/*
+/stylesheets/sass/.sass-cache/*
+/stylesheets/css/style.css.map
