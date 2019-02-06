@@ -1,3 +1,6 @@
 /.vscode/
-/conf/
-/upload/
+/src/settings.ini
+/uploads/account/*
+/uploads/articles/*
+/uploads/background/*
+/uploads/logo/*
