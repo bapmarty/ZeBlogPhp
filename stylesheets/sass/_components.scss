@@ -1,0 +1,112 @@
+//navbar
+.navbar {
+  padding: 0 20px;
+  background-color: $white;
+  font-weight: 700;
+  div {
+    display: inline-block;
+    vertical-align: top;
+    img {
+      width: 64px;
+      height: 64px;
+    }
+    .nav-item, .logo {
+      text-decoration: none;
+    }
+  }
+  .logo, .logo:hover, .logo:visited, .logo:active, .logo:link {
+    color: #333;
+    span {
+      font-size: 1.3rem;
+      vertical-align: 100%;
+    }
+  }
+  .nav-links {
+    margin-left: 3rem;
+    .nav-item, .nav-item:link, .nav-item:active, .nav-item:visited {
+      color: #333;
+      display: block;
+      padding: 24px 7px 25px;
+    }
+  }
+  .account-links {
+    float: right;
+    .nav-item, .nav-item:link, .nav-item:active, .nav-item:visited {
+      color: #333;
+      display: inline-block;
+      padding: 24px 7px 25px;
+    }
+  }
+  .nav-links, .account-links {
+    .nav-item:hover {
+      color: #EEE;
+      transition: all 0.2s ease-out;
+    }
+  }
+  .nav-links, .account-links {
+    .nav-item.active {
+      color: #EEE;
+    }
+  }
+}
+@media screen and (min-width: 678px) {
+  .navbar {
+    #icon-navbar-resp {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 678px) {
+  .navbar {
+    div {
+      display: block;
+      #icon-navbar-resp {
+        float: right;
+        color: #333;
+        font-size: 1.4rem;
+        padding: 18px 0 0 0;
+      }
+    }
+    .nav-links, .account-links {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 678px) {
+  .navbar.resp-navbar {
+    .nav-links, .account-links {
+      display: block;
+      float: none;
+      margin-left: 0;
+      .nav-item {
+        display: block;
+      }
+      a {
+        padding: 15px 0;
+        font-size: 1.1rem;
+        i {
+          float: right;
+        }
+      }
+    }
+  }
+}
+// footer
+footer {
+  display: flex;
+  width: 100%;
+  background-color: #333;
+  color: #EEE;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  div {
+    margin: 10px 50px;
+    a, a:hover, a:active, a:visited, a:link{
+      color: #EEE;
+    }
+  }
+  div:nth-child(2) {
+    margin-left: auto;
+  }
+}

@@ -1,5 +1,5 @@
 # ZeBlogPhp 
-[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/mrtwizard/zeblogphp)  
+[![Version](https://img.shields.io/badge/Version-2.0.0-blue.svg)](https://github.com/mrtwizard/zeblogphp)  
   
 This site create for school projet [zeblogphp](https://baptiste-mrt.fr/zeblogphp/).
   
